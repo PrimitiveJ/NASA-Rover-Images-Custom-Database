@@ -32,5 +32,5 @@ fetch('https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&
     });
            document.getElementById("table_body").innerHTML = tableData;
 }).catch((err)=>{
-    console.log(err);
+    console.log(err); // I'M A FIYA STARTAH!
 })
