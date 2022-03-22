@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API data in table</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        *{
+            background-color: black;
+            color:white;
+        }
+        img{
+            width:75%;
+            margin-left: 125px;
+            border: 4px teal solid;
+            border-radius: 2%;
+        }
+
+        tr {
+            border-bottom: 2px solid whitesmoke;
+            
+        }
+
+        th {
+            background-color: grey;
+            color:red;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h1 class ="text-center">Storing API data in table</h1>
+    <div class = "container">
+        <table class="table table-bordered">
+            <thead class = "table-dark">
+            <tr>
+                <th scope="col">Images from Mars</th>
+                <th scope="col">ID</th>
+                <th scope="col">Rover Name</th>
+            </tr>
+            </thead>
+            <tbody id="table_body">
+            </tbody>
+        </table>
+    </div>
+    <script src = "script.js"></script>
+
+</body>
+</html>
